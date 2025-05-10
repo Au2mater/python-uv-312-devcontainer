@@ -4,6 +4,17 @@ This repository serves as a baseline template for new projects. Follow the steps
 
 ---
 
+## Table of Contents
+- [How to Use This Template](#how-to-use-this-template)
+- [Platform-Specific Instructions](#platform-specific-instructions)
+  - [Linux](#linux)
+  - [Windows (Command Prompt)](#windows-command-prompt)
+  - [Windows (PowerShell)](#windows-powershell)
+  - [macOS](#macos)
+- [Notes](#notes)
+
+---
+
 ## How to Use This Template
 
 ### Step 1: Clone the Repository
@@ -73,9 +84,9 @@ git clone https://github.com/Au2mater/python-uv-312-devcontainer.git .
 
 ---
 
-### **Windows**
+### **Windows (Command Prompt)**
 1. **Remove the Git History**  
-   Open a Command Prompt or PowerShell and run:
+   Open a Command Prompt and run:
    ```cmd
    rmdir .git
    ```
@@ -102,18 +113,35 @@ git clone https://github.com/Au2mater/python-uv-312-devcontainer.git .
    git commit -m "Initial commit from template"
    ```
 
-5. **Link to a New Remote Repository**  
-   If you have created a new repository on GitHub, link it to your local repository:
-   ```cmd
-   git remote add origin https://github.com/<your-username>/<your-new-repo>.git
-   ```
-   Replace `<your-username>` and `<your-new-repo>` with the appropriate details.
+---
 
-6. **Push to the New Repository**  
-   Push your changes to the new remote repository:
-   ```cmd
-   git branch -M main
-   git push -u origin main
+### **Windows (PowerShell)**
+1. **Remove the Git History**  
+   Open PowerShell and run:
+   ```powershell
+   Remove-Item -Recurse -Force .git
+   ```
+
+2. **Remove the Existing README (Optional)**  
+   If you want to replace the template's `README.md` file with your own, run:
+   ```powershell
+   Remove-Item README.md
+   ```
+
+3. **Initialize a New Git Repository**  
+   Set up a new Git repository for your project:
+   ```powershell
+   git init
+   ```
+
+4. **Add and Commit Files**  
+   Add all the files to the new repository:
+   ```powershell
+   git add .
+   ```
+   Commit the files:
+   ```powershell
+   git commit -m "Initial commit from template"
    ```
 
 ---
