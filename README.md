@@ -7,16 +7,21 @@ This repository serves as a baseline template for new projects. Follow the steps
 ## How to Use This Template
 
 ### Step 1: Clone the Repository
-Clone the repository into your desired folder. If you want to clone it into the current folder, use the following command:
-
-```bash
-git clone https://github.com/Au2mater/python-uv-312-devcontainer.git .
-```
-
-If you want to clone it into a subfolder, omit the `.`:
+Clone the repository into your desired folder. If you want to clone it into a subfolder, use the following command:
 
 ```bash
 git clone https://github.com/Au2mater/python-uv-312-devcontainer.git
+```
+
+After cloning, navigate into the newly created folder:
+```bash
+cd python-uv-312-devcontainer
+```
+
+If you want to clone it into the current folder, use the following command instead:
+
+```bash
+git clone https://github.com/Au2mater/python-uv-312-devcontainer.git .
 ```
 
 ---
@@ -72,7 +77,7 @@ git clone https://github.com/Au2mater/python-uv-312-devcontainer.git
 1. **Remove the Git History**  
    Open a Command Prompt or PowerShell and run:
    ```cmd
-   rmdir /s /q .git
+   rmdir .git
    ```
 
 2. **Remove the Existing README (Optional)**  
