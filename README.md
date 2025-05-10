@@ -5,6 +5,7 @@ This repository serves as a baseline template for new projects. Follow the steps
 ---
 
 ## Table of Contents
+- [Feature Overview](#feature-overview)
 - [How to Use This Template](#how-to-use-this-template)
 - [Platform-Specific Instructions](#platform-specific-instructions)
   - [Linux](#linux)
@@ -14,6 +15,16 @@ This repository serves as a baseline template for new projects. Follow the steps
 - [Notes](#notes)
 
 ---
+## Feature Overview
+
+This template provides a simple Python development setup using Dev Containers:
+
+- **Base Image**: Uses `mcr.microsoft.com/devcontainers/python:1-3.12-bullseye` for a stable Python 3.12 environment.
+- **Anonymous Volume**: Mounts `.venv` to keep virtual environment files off the local machine.
+- **Post-Creation Setup**: Automatically sets permissions, installs the `uv` package, and initializes or syncs the `uv` tool.
+- **VS Code Extension**: Includes `VSCode Python Extension` and `Path Intellisense` for better path suggestions.
+
+This setup is lightweight and ready for quick Python development.
 
 ## How to Use This Template
 
@@ -73,8 +84,6 @@ Or follow the steps below:
    ```bash
    git commit -m "Initial commit from template"
    ```
-
-
 
 ---
 
