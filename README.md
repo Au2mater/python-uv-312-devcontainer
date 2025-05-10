@@ -40,6 +40,12 @@ git clone https://github.com/Au2mater/python-uv-312-devcontainer.git .
 ## Platform-Specific Instructions
 
 ### **Linux**
+Run this combined command in your terminal to remove the Git history and initialize a new repository:
+```bash
+rm -rf .git && rm README.md && git init && git add . && git commit -m "Initial commit from template"
+```
+Or follow the steps below:
+
 1. **Remove the Git History**  
    Detach the repository from its Git history by removing the `.git` directory:
    ```bash
@@ -68,23 +74,16 @@ git clone https://github.com/Au2mater/python-uv-312-devcontainer.git .
    git commit -m "Initial commit from template"
    ```
 
-5. **Link to a New Remote Repository**  
-   If you have created a new repository on GitHub, link it to your local repository:
-   ```bash
-   git remote add origin https://github.com/<your-username>/<your-new-repo>.git
-   ```
-   Replace `<your-username>` and `<your-new-repo>` with the appropriate details.
 
-6. **Push to the New Repository**  
-   Push your changes to the new remote repository:
-   ```bash
-   git branch -M main
-   git push -u origin main
-   ```
 
 ---
 
 ### **Windows (Command Prompt)**
+Run this combined command in your Command Prompt to remove the Git history and initialize a new repository:
+```cmd
+rmdir .git && del README.md && git init && git add . && git commit -m "Initial commit from template"
+```
+Or follow the steps below:
 1. **Remove the Git History**  
    Open a Command Prompt and run:
    ```cmd
@@ -116,6 +115,12 @@ git clone https://github.com/Au2mater/python-uv-312-devcontainer.git .
 ---
 
 ### **Windows (PowerShell)**
+Run this combined command in your PowerShell to remove the Git history and initialize a new repository:
+```powershell
+Remove-Item -Recurse -Force .git; Remove-Item README.md; git init; git add .; git commit -m "Initial commit from template"
+```
+Or follow the steps below:
+
 1. **Remove the Git History**  
    Open PowerShell and run:
    ```powershell
@@ -147,6 +152,12 @@ git clone https://github.com/Au2mater/python-uv-312-devcontainer.git .
 ---
 
 ### **macOS**
+Run this combined command in your terminal to remove the Git history and initialize a new repository:
+```bash
+rm -rf .git && rm README.md && git init && git add . && git commit -m "Initial commit from template"
+```
+Or follow the steps below:
+
 1. **Remove the Git History**  
    Detach the repository from its Git history by removing the `.git` directory:
    ```bash
@@ -173,20 +184,6 @@ git clone https://github.com/Au2mater/python-uv-312-devcontainer.git .
    Commit the files:
    ```bash
    git commit -m "Initial commit from template"
-   ```
-
-5. **Link to a New Remote Repository**  
-   If you have created a new repository on GitHub, link it to your local repository:
-   ```bash
-   git remote add origin https://github.com/<your-username>/<your-new-repo>.git
-   ```
-   Replace `<your-username>` and `<your-new-repo>` with the appropriate details.
-
-6. **Push to the New Repository**  
-   Push your changes to the new remote repository:
-   ```bash
-   git branch -M main
-   git push -u origin main
    ```
 
 ---
