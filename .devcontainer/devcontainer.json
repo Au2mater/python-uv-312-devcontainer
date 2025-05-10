@@ -19,11 +19,11 @@
 				"christian-kohler.path-intellisense"
 				,"ms-python.python"
 			]
+			, "settings": {
+				"python.defaultInterpreterPath": "./.venv/bin/python"
+			}
 		}
-		, "settings": {
-			"python.path": "/home/vscode/.venv/bin/python"
 	}
-}
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
