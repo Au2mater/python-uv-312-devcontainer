@@ -1,6 +1,7 @@
-# Template Repository: python-uv-312-devcontainer
+# Template Repository: UV Python 312 Devcontainer
 
-This repository serves as a baseline template for new projects. Follow the steps below to use this template without preserving its Git history or modifying the original repository.
+This repository serves as a baseline template for new pytohn projects in vscode.
+Follow the steps below to use this template without preserving its Git history or modifying the original repository.
 
 ---
 
