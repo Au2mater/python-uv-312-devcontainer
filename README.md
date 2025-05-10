@@ -53,7 +53,7 @@ git clone https://github.com/Au2mater/python-uv-312-devcontainer.git .
 ### **Linux**
 Run this combined command in your terminal to remove the Git history and initialize a new repository:
 ```bash
-rm -rf .git && rm README.md && git init && git add . && git commit -m "Initial commit from template"
+rm -rf .git && rm README.md && git init
 ```
 Or follow the steps below:
 
@@ -75,22 +75,12 @@ Or follow the steps below:
    git init
    ```
 
-4. **Add and Commit Files**  
-   Add all the files to the new repository:
-   ```bash
-   git add .
-   ```
-   Commit the files:
-   ```bash
-   git commit -m "Initial commit from template"
-   ```
-
 ---
 
 ### **Windows (Command Prompt)**
 Run this combined command in your Command Prompt to remove the Git history and initialize a new repository:
 ```cmd
-rmdir .git && del README.md && git init && git add . && git commit -m "Initial commit from template"
+rmdir .git && del README.md && git init
 ```
 Or follow the steps below:
 1. **Remove the Git History**  
@@ -111,22 +101,12 @@ Or follow the steps below:
    git init
    ```
 
-4. **Add and Commit Files**  
-   Add all the files to the new repository:
-   ```cmd
-   git add .
-   ```
-   Commit the files:
-   ```cmd
-   git commit -m "Initial commit from template"
-   ```
-
 ---
 
 ### **Windows (PowerShell)**
 Run this combined command in your PowerShell to remove the Git history and initialize a new repository:
 ```powershell
-Remove-Item -Recurse -Force .git; Remove-Item README.md; git init; git add .; git commit -m "Initial commit from template"
+Remove-Item -Recurse -Force .git; Remove-Item README.md; git init
 ```
 Or follow the steps below:
 
@@ -148,22 +128,12 @@ Or follow the steps below:
    git init
    ```
 
-4. **Add and Commit Files**  
-   Add all the files to the new repository:
-   ```powershell
-   git add .
-   ```
-   Commit the files:
-   ```powershell
-   git commit -m "Initial commit from template"
-   ```
-
 ---
 
 ### **macOS**
 Run this combined command in your terminal to remove the Git history and initialize a new repository:
 ```bash
-rm -rf .git && rm README.md && git init && git add . && git commit -m "Initial commit from template"
+rm -rf .git && rm README.md && git init
 ```
 Or follow the steps below:
 
@@ -183,16 +153,6 @@ Or follow the steps below:
    Set up a new Git repository for your project:
    ```bash
    git init
-   ```
-
-4. **Add and Commit Files**  
-   Add all the files to the new repository:
-   ```bash
-   git add .
-   ```
-   Commit the files:
-   ```bash
-   git commit -m "Initial commit from template"
    ```
 
 ---
