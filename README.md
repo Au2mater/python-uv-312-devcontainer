@@ -1,6 +1,7 @@
 # Template Repository: UV Python 312 Devcontainer
+_Fast and minimal python 3.12 VSCode devcontainer with [UV](https://docs.astral.sh/uv/) as a package mananger._  
 
-This repository serves as a baseline template for new pytohn projects in vscode.
+This repository serves as a baseline template for new python projects in vscode.
 Follow the steps below to use this template without preserving its Git history or modifying the original repository.
 
 ---
